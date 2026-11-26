@@ -1,6 +1,6 @@
 ## Daniel Dale
 
-Building **[Interpretune](https://github.com/speediedan/interpretune)**, a flexible framework for collaborative AI world model analysis and tuning. Author and maintainer of **[Fine-Tuning Scheduler](https://github.com/speediedan/finetuning-scheduler)**. Contributor to PyTorch, Lightning, circuit-tracer, TransformerLens and SAELens.
+Building **[Interpretune](https://github.com/interpretune/interpretune)**, a flexible framework for collaborative AI latent model analysis and tuning. Author and maintainer of **[Fine-Tuning Scheduler](https://github.com/speediedan/finetuning-scheduler)**. Contributor to PyTorch, Lightning, circuit-tracer, TransformerLens and SAELens.
 
 Seattle, WA · [interpretune.org](https://interpretune.org) · [LinkedIn](https://www.linkedin.com/in/dandale/)
 
@@ -8,9 +8,9 @@ Seattle, WA · [interpretune.org](https://interpretune.org) · [LinkedIn](https:
 
 ### What I am building
 
-**[Interpretune](https://github.com/speediedan/interpretune)** · [docs](https://interpretune.org) · pre-MVP, APIs subject to change
+**[Interpretune](https://github.com/interpretune/interpretune)** · [docs](https://interpretune.org) · pre-MVP, APIs subject to change
 
-Composes the interpretability ecosystem at multiple levels of abstraction: framework (e.g. PyTorch, Lightning), latent-model (e.g. TransformerLens, NNsight) and analysis (e.g. circuit-tracer, SAELens), beneath a shared session and protocol layer. An analysis operation (e.g. concept directions, gradient and ablation attribution, attribution-graph computation, feature interventions, graph pruning) is written once, dispatched across any backend composition, and captured as an `AnalysisStore`: a backend-agnostic, shareable dataset. The aim is to turn interpretability analyses from isolated notebook state into exchangeable artifacts other researchers can reproduce, combine and build on.
+Composes the interpretability ecosystem at multiple levels of abstraction: framework (e.g. PyTorch, Lightning), latent model (e.g. TransformerLens, NNsight) and analysis (e.g. circuit-tracer, SAELens), beneath a shared session and protocol layer. An analysis operation (e.g. concept directions, gradient and ablation attribution, attribution-graph computation, feature interventions, graph pruning) is written once, dispatched across any backend composition, and captured as an `AnalysisStore`: a backend-agnostic, shareable dataset. The aim is to turn interpretability analyses from isolated notebook state into exchangeable artifacts other researchers can reproduce, combine and build on.
 
 **[Fine-Tuning Scheduler](https://github.com/speediedan/finetuning-scheduler)** · [docs](https://finetuning-scheduler.readthedocs.io)
 
